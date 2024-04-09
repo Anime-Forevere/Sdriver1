@@ -1,17 +1,6 @@
-### Hi there, My name is Sdriver1 👋
+## Who am I?
+Hello, I am Sdriver1, or Driver for short. I am a 16-year-old amateur developer and Junior in High School. I am Male and use He/Him pronouns. I mainly focus on discord bot development and the owner of verified bot. I code in JavaScript and HTML & CSS. I am learning Python and Java. I am mostly active on Discord if you want to contact me. 
 
-## Personal Facts
-- 16 years old
-- Pronouns: He/Him
-- Gender: Male
-- Junior in HS
-
-## Dev Facts
-- Amateur Developer
-- Codes: JavaScript and HTML & CSS
-- Learning: TypeScript, Python, and Java
-- Developer of [Pridebot](https://github.com/Sdriver/Pridebot) Discord bot (300+ Servers)
-
-  ## Projects
+## Projects
 - [Pridebot](https://github.com/Sdriver/Pridebot)
 - [Pridebot Website](https://github.com/Sdriver/Pridebot-Website)
