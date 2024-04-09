@@ -1,16 +1,17 @@
-### Hi there 👋
+### Hi there, My name is Sdriver1 👋
 
-<!--
-**Sdriver1/Sdriver1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Personal Facts
+- 16 years old
+- Pronouns: He/Him
+- Gender: Male
+- Junior in HS
 
-Here are some ideas to get you started:
+## Dev Facts
+- Amateur Developer
+- Codes: JavaScript and HTML & CSS
+- Learning: TypeScript, Python, and Java
+- Developer of [Pridebot](https://github.com/Sdriver/Pridebot) Discord bot (300+ Servers)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  ## Projects
+- [Pridebot](https://github.com/Sdriver/Pridebot)
+- [Pridebot Website](https://github.com/Sdriver/Pridebot-Website)
