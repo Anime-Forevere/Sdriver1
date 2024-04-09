@@ -11,10 +11,17 @@ module.exports = {
     ),
 
   async execute(interaction, client) {
+  const DriverInfo = "- 16-year-old amateur \n- Male | He/Him pronouns \nBeen coding since last year";
+  const DriverStat = "";
+  const DriverLanguages = "";
+  const DriverProjects = "";
+  const DriverSocials = "";
+  
+    
     const embed = new ReadmeBuilder()
       .setTitle(`OMG IT IS THE`)
       .setDescription(
-        `Hello, I am Sdriver1 or Driver for short. I am a 16-year-old amateur developer and Junior in High School. I am Male and use He/Him pronouns. I mainly focus on Discord bot development and own a verified bot. I code in JavaScript and HTML & CSS. I am learning Python and Java. I am mostly active on Discord if you want to contact me. `
+        ``
       )
       .setColor(0xff00ae);
     await interaction.reply({ embeds: [embed] });
