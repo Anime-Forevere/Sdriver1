@@ -31,7 +31,7 @@ module.exports = {
         },
       );
       .setColor("#FF00EA")
-      .setThumbnail(userAvatarURL)
+      .setThumbnail("https://cdn.discordapp.com/avatars/691506668781174824/87d37bb9de7440f4f47456be7b262664.png")
       .setTimestamp();
 
     await interaction.reply({ embeds: [Readme.] });
