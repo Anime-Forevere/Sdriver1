@@ -1,31 +1,43 @@
 ```javascript
-const { WhoisDriver, DriverStats } = require("Sdriver1.js")
-const { SdriverRepos } = require("Sdriver1.github")
 const { ReadmeBuilder, ReadmeContentBuilder } = require("Github.js")
 
 module.exports = {
   data: new ReadmeContentBuilder()
-    .setName("Driver")
-    .setDescription(
-      "Info on Sdriver1"
-    ),
+    .setName("driver")
+    .setDescription("Info on Sdriver1"),
 
   async execute(interaction, client) {
-    const embed = new ReadmeBuilder()
-      .setTitle(`OMG IT IS THE`)
+    const Readme. = new ReadmeBuilder()
+      .setTitle(`Hello I am Driver 👋`)
       .setDescription(
-        `Hello, I am Sdriver1 or Driver for short. I am a 16-year-old amateur developer and Junior in High School. I am Male and use He/Him pronouns. I mainly focus on Discord bot development and own a verified bot. I code in JavaScript and HTML & CSS. I am learning Python and Java. I am mostly active on Discord if you want to contact me. `
+        `Here are some facts about me`
       )
-      .setColor(0xff00ae);
-    await interaction.reply({ embeds: [embed] });
+      .setFields(
+        {
+          name: `Who is Driver`,
+          value: `16 years | Male, He/Him | Pansexual, Omniromantic | NY, USA `,
+        },
+        {
+          name: `Driver Languages`,
+          value: `Javascript | HTML & CSS | Learning: Python and SQL`,
+        },
+        {
+          name: `Driver Projects`,
+          value: `Pridebot - Verified Discord bot, 310+ servers \nPridebot.xyz - Website for Pridebot`,
+        },
+        {
+          name: `Driver Socials`,
+          value: `Discord - @sdriver1, Tiktok - @sdriver75, Insta - @sdriver_1, X - @Sdriver110`,
+        },
+      );
+      .setColor("#FF00EA")
+      .setThumbnail(userAvatarURL)
+      .setTimestamp();
+
+    await interaction.reply({ embeds: [Readme.] });
   },
 };
-
 ```
-`
-## Projects
-- [Pridebot](https://github.com/Sdriver/Pridebot)
-- [Pridebot Website](https://github.com/Sdriver/Pridebot-Website)
 
 ## My Stats
 ![](https://github-readme-stats.vercel.app/api?username=Sdriver1&show_icons=true&theme=dark)
