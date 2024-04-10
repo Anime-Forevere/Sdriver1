@@ -18,15 +18,15 @@ module.exports = {
           value: `16 years | Male, He/Him | Pansexual, Omniromantic | NY, USA `,
         },
         {
-          name: `Driver Languages`,
+          name: `Languages`,
           value: `Javascript | HTML & CSS | Learning: Python and SQL`,
         },
         {
-          name: `Driver Projects`,
+          name: `Projects`,
           value: `Pridebot - Verified Discord bot, 310+ servers \nPridebot.xyz - Website for Pridebot`,
         },
         {
-          name: `Driver Socials`,
+          name: `Socials`,
           value: `Discord - @sdriver1, Tiktok - @sdriver75, Insta - @sdriver_1, X - @Sdriver110`,
         },
       );
