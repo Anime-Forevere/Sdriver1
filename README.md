@@ -1,38 +1,43 @@
 ```javascript
-const { WhoisDriver, DriverStats } = require("Sdriver1.js")
-const { SdriverRepos } = require("Sdriver1.github")
 const { ReadmeBuilder, ReadmeContentBuilder } = require("Github.js")
 
 module.exports = {
   data: new ReadmeContentBuilder()
-    .setName("Driver")
-    .setDescription(
-      "Info on Sdriver1"
-    ),
+    .setName("driver")
+    .setDescription("Info on Sdriver1"),
 
   async execute(interaction, client) {
-  const DriverInfo = "- 16-year-old amateur \n- Male | He/Him pronouns \nBeen coding since last year";
-  const DriverStat = "";
-  const DriverLanguages = "";
-  const DriverProjects = "";
-  const DriverSocials = "";
-  
-    
-    const embed = new ReadmeBuilder()
-      .setTitle(`OMG IT IS THE`)
+    const Readme. = new ReadmeBuilder()
+      .setTitle(`Hello I am Driver 👋`)
       .setDescription(
-        ``
+        `Here are some facts about me`
       )
-      .setColor(0xff00ae);
-    await interaction.reply({ embeds: [embed] });
+      .setFields(
+        {
+          name: `Who is Driver`,
+          value: `16 years | Male, He/Him | Pansexual, Omniromantic | NY, USA `,
+        },
+        {
+          name: `Driver Languages`,
+          value: `Javascript | HTML & CSS | Learning: Python and SQL`,
+        },
+        {
+          name: `Driver Projects`,
+          value: `Pridebot - Verified Discord bot, 310+ servers \nPridebot.xyz - Website for Pridebot`,
+        },
+        {
+          name: `Driver Socials`,
+          value: `Discord - @sdriver1, Tiktok - @sdriver75, Insta - @sdriver_1, X - @Sdriver110`,
+        },
+      );
+      .setColor("#FF00EA")
+      .setThumbnail(userAvatarURL)
+      .setTimestamp();
+
+    await interaction.reply({ embeds: [Readme.] });
   },
 };
-
 ```
-`
-## Projects
-- [Pridebot](https://github.com/Sdriver/Pridebot)
-- [Pridebot Website](https://github.com/Sdriver/Pridebot-Website)
 
 ## My Stats
 ![](https://github-readme-stats.vercel.app/api?username=Sdriver1&show_icons=true&theme=dark)
